@@ -274,6 +274,10 @@ background: url(../img/Layer.jpg);
         margin-bottom: 75px;
     }
 
+    &__logo img {
+        width: 100%;
+    }
+
     &__items {
         display: flex;
         flex-direction: column;
@@ -316,6 +320,9 @@ background: url(../img/Layer.jpg);
     background-color: #000000;
     color: #fff;
     text-transform: uppercase;
+    @media (max-width: 568px) {
+        font-size: 12px;
+    }
     &:hover {
         background-color: #663d15;
     }
@@ -1052,6 +1059,7 @@ flex-direction: column;
     }
 }
 .btn {
+
 }
 .equipment {
 

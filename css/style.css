@@ -394,6 +394,10 @@ a {
   margin-bottom: 75px;
 }
 
+.intro__logo img {
+  width: 100%;
+}
+
 .intro__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +449,12 @@ a {
   background-color: #000000;
   color: #fff;
   text-transform: uppercase;
+}
+
+@media (max-width: 568px) {
+  .btn {
+    font-size: 12px;
+  }
 }
 
 .btn:hover {
