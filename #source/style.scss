@@ -287,6 +287,9 @@ background: url(../img/Layer.jpg);
     &__title {
         font-size: 30px;
         line-height: 1.4;
+        @media (max-width: 568px) {
+            font-size: 20px;
+        }
     }
 
     &__text {
@@ -442,12 +445,18 @@ background: url(../img/Layer.jpg);
 
     &__btn {
         min-width: 140px;
+        @media (max-width: 568px) {
+            min-width: 120px;
+        }
     }
 }
 .btn {
 
     &__prew {
         min-width: 140px;
+        @media (max-width: 568px) {
+            min-width: 120px;
+        }
     }
 
     &__prew + .btn__next {
@@ -456,6 +465,9 @@ background: url(../img/Layer.jpg);
 
     &__next {
         min-width: 140px;
+        @media (max-width: 568px) {
+            min-width: 120px;
+        }
     }
 
     &__wrapper {

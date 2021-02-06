@@ -412,6 +412,12 @@ a {
   line-height: 1.4;
 }
 
+@media (max-width: 568px) {
+  .intro__title {
+    font-size: 20px;
+  }
+}
+
 .intro__text {
   font-size: 14px;
   line-height: 1.71;
@@ -579,8 +585,20 @@ a {
   min-width: 140px;
 }
 
+@media (max-width: 568px) {
+  .photogalery__btn {
+    min-width: 120px;
+  }
+}
+
 .btn__prew {
   min-width: 140px;
+}
+
+@media (max-width: 568px) {
+  .btn__prew {
+    min-width: 120px;
+  }
 }
 
 .btn__prew + .btn__next {
@@ -589,6 +607,12 @@ a {
 
 .btn__next {
   min-width: 140px;
+}
+
+@media (max-width: 568px) {
+  .btn__next {
+    min-width: 120px;
+  }
 }
 
 .btn__wrapper {
