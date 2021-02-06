@@ -450,6 +450,10 @@ background: url(../img/Layer.jpg);
         min-width: 140px;
     }
 
+    &__prew + .btn__next {
+        margin-left: 10px;
+    }
+
     &__next {
         min-width: 140px;
     }

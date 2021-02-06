@@ -583,6 +583,10 @@ a {
   min-width: 140px;
 }
 
+.btn__prew + .btn__next {
+  margin-left: 10px;
+}
+
 .btn__next {
   min-width: 140px;
 }
