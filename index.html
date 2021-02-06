@@ -13,15 +13,31 @@
       <!--header-start-->
       <header class="header">
         <div class="container">
-          <div class="header__nav">
+          <div class="burger-menu">
+
+              <a href="#" class="burger-menu__button">
+               <span class="burger-menu__lines"></span>
+              </a>
+             
+              <nav class="burger-menu__nav">
+               <a href="#section-1" class="burger-menu__link">ИНФОРМАЦИЯ</a>
+               <a href="#section-2" class="burger-menu__link">НОВОСТИ</a>
+               <a href="price.html" class="burger-menu__link">ПРАЙС-ЛИСТ</a>
+               <a href="barbershop_shop.html" class="burger-menu__link">МАГАЗИН</a>
+               <a href="#section-5" class="burger-menu__link">КОНТАКТЫ</a>
+               <a href="#section-6" class="burger-menu__link">ВХОД</a>
+              </nav>
+              <div class="burger-menu__overlay"></div>
+             </div>
+          <div class="header__nav"> 
             <ul class="nav__menu">
-              <li class="nav__item"><a href="#">ИНФОРМАЦИЯ</a></li>
-              <li class="nav__item"><a href="#">НОВОСТИ</a></li>
-              <li class="nav__item"><a href="price.html" target="_blank">ПРАЙС-ЛИСТ</a></li>
-              <li class="nav__item"><a href="barbershop_shop.html" target="_blank">МАГАЗИН</a></li>
-              <li class="nav__item"><a href="#">КОНТАКТЫ</a></li>
+              <li class="nav__item" id="section-1"><a href="#">ИНФОРМАЦИЯ</a></li>
+              <li class="nav__item" id="section-2"><a href="#">НОВОСТИ</a></li>
+              <li class="nav__item" id="section-3"><a href="price.html" target="_blank">ПРАЙС-ЛИСТ</a></li>
+              <li class="nav__item" id="section-4"><a href="barbershop_shop.html" target="_blank">МАГАЗИН</a></li>
+              <li class="nav__item" id="section-5"><a href="#">КОНТАКТЫ</a></li>
             </ul>
-            <div class="nav__exit"><a href="#">ВХОД</a></div>
+            <div class="nav__exit" id="section-6"><a href="#">ВХОД</a></div>
             
           </div>
         </div>
@@ -70,7 +86,7 @@
                         <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p> 
                         <br> 18 января 
                         </div>
-                        <div>
+                        <div class="news__btn--wrapper">
                         <button class="news__btn btn">ВСЕ НОВОСТИ</button>
                         </div>
                     </div>
@@ -165,5 +181,7 @@
       <!--footer-end-->
     </div>
     
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
