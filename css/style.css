@@ -1315,6 +1315,9 @@ a {
 
 .description__btn {
   margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .equipment__title {
